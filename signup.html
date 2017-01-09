@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>:: Welcome :: Login page</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+	<center>
+		<form name="signup_form" action="main.html" method="get" onsubmit="return signup()">
+		<h1>MySelfie Tech</h1>		
+		<h2><center>SignUp</center></h2>
+		<input type="text" id="name" placeholder="Name" required/><br/>
+		<input type="email" id="email" placeholder="Email" required/><br/>
+		<input type="password" id="passwrd" placeholder="Password" required/>
+		<div id="msg">
+			
+		</div>
+		<div class="actn">
+		<input type="submit" id="submit" value="Submit" class="btn">&nbsp;&nbsp;<input type="button" id="sback" class="btn" onclick="back(this.id)" value="Back"/>
+		</div>
+		</form>
+	</center>
+<script src="js/app.js" type="text/javascript" language="javascript"></script>	
+</body>
+</html>
